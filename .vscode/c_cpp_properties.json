@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/vikas/Desktop/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/vikas/catkin_ws/devel/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/depthimage_to_laserscan/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki/kobuki_auto_docking/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki_bumper2pc/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki/kobuki_controller_tutorial/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki_desktop/kobuki_gazebo_plugins/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki_keyop/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki_node/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki/kobuki_random_walker/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/kobuki_safety_controller/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/my_pkg/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/robot_pose_ekf/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/turtlebot_apps/turtlebot_actions/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/yocs_cmd_vel_mux/include/**",
+        "/home/vikas/Desktop/catkin_ws/src/yocs_controllers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

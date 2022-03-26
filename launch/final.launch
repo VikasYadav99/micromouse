@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+  <arg name="paused" default="true"/>
+  <arg name="pos" default="-x -1.35 -y 1.35 -z 0.025"/>
+  <arg name="x" default="-1.35"/>
+  <arg name="y" default="1.35"/>
+  <arg name="z" default="0.025"/>
+  <arg name="rpy" default=""/>
+  <arg name="maze" default="arena"/>
+
+  <include file = "$(find pkg_techfest_imc)/launch/gazebo.launch">
+  	<arg name="paused" value="$(arg paused)"/>
+  	<arg name="pos" value="$(arg pos)"/>
+  	<arg name="x" value="$(arg x)"/>
+    <arg name="y" value="$(arg y)"/>
+    <arg name="z" value="$(arg z)"/>
+    <arg name="rpy" value="$(arg rpy)"/>
+    <arg name="maze" value="$(arg maze)"/>
+  </include>
+  <node pkg="pkg_techfest_imc" name="main" type="main.py" output="screen"> 
+  </node>
+
+  <include file = "$(find pkg_techfest_imc)/launch/rviz.launch" />
+
+</launch>
