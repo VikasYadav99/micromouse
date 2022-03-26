@@ -290,7 +290,7 @@ This is similar to the process of setting costs of node in Dijkstra's algorithm
 set_cost function sets cost only for locations (points) in map that are brighter or their value is greter than provided threshold. 
 
 ## How set_cost() works
-[![Video](for_readme/set_cost.png "Click to play")](for_readme/set_cost.mp4)
+https://user-images.githubusercontent.com/50135239/160235554-f097dea6-fa13-422d-84a3-e5fc8f7cfbf9.mp4
 
 ### Pseudo code
 > function set_cost(input position=p[x, y], input threshold for color)  
@@ -405,11 +405,12 @@ else x is inf
 ---
 # Performance of Robot
 ## Given Sample Arena
-[![Video](for_readme/thumbnail.png "Click to play")](for_readme/sample_arena.mp4)
-## Another Case
-[![Video](for_readme/mapping.png "Click to play")](for_readme/toughest_run_on_gpu.mp4)
+https://user-images.githubusercontent.com/50135239/160235705-2e5bfab9-212f-430b-af88-b0b018e0c86f.mp4
+
+
 ## Loop
-[![Video](for_readme/loop.png "Click to play")](for_readme/loop.mp4)
+https://user-images.githubusercontent.com/50135239/160235609-7e3bc794-fec3-490c-9bb7-bf4db163bd35.mp4
+
 
 ---
 ---
